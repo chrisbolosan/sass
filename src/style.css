@@ -6,13 +6,18 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #8d8c8c;
 }
 
 header button {
-  background: red;
+  background: #e03434;
+}
+
+header button::after {
+  content: 'Chris';
 }
 
 .contact button {
-  background: red;
+  background: #e03434;
 }
 /*# sourceMappingURL=style.css.map */
