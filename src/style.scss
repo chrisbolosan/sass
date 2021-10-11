@@ -3,5 +3,7 @@
 @import './header';
 
 .contact {
-  @include flexCenter(row);
+  @extend header;
+  background: lightcoral;
+  width: 100%-20%;
 }

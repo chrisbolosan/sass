@@ -1,16 +1,17 @@
-@mixin flexCenter($direction) {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: $direction;
-}
+// @mixin flexCenter($direction, $background) {
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: $direction;
+//   background: $background;
+// }
 
 header {
-  @include flexCenter(column);
-  background-color: lightblue;
-
+  //   @include flexCenter(column, rgb(96, 167, 190));
+  height: 100vh;
   color: $textColor;
+  background: lightblue;
   //nested functionality for button
   button {
     background: $primaryBtn;
