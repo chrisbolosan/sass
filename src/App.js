@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+// import { header } from 'express/lib/request';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <p>Hello World</p>
+        <button>Hello</button>
       </header>
+      <div className="contact">
+        <button>Submit</button>
+        <div class="info">
+          <h1>My contact information</h1>
+          <p>This is my contact information</p>
+        </div>
+      </div>
     </div>
   );
 }
