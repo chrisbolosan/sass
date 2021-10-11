@@ -1,8 +1,7 @@
 // variables
-$primaryBtn: rgb(224, 52, 52);
-$textColor: rgb(141, 140, 140);
-
+@import './variables';
 @import './header';
-.contact button {
-  background: $primaryBtn;
+
+.contact {
+  @include flexCenter(row);
 }
