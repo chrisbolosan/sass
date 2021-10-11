@@ -2,20 +2,7 @@
 $primaryBtn: rgb(224, 52, 52);
 $textColor: rgb(141, 140, 140);
 
-header {
-  background-color: lightblue;
-  display: flex;
-  justify-content: center;
-  color: $textColor;
-  //nested functionality for button
-  button {
-    background: $primaryBtn;
-    &::after {
-      content: 'Chris';
-    }
-  }
-}
-
+@import './header';
 .contact button {
   background: $primaryBtn;
 }
