@@ -1,9 +1,9 @@
 // import { header } from 'express/lib/request';
-import './App.css';
+import './style.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header>
         <p>Hello World</p>
         <button>Hello</button>
